@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../fonts/font.ttf');
+}
+
+$headingColor: #b673b7;
+$mainHeadingColor: #636e7b;
+$mainTextColor: #878787;
+$blueColor: #29abe2;
+$font1: MyFont;
+$font2: 'Lato',sans-serif;
+
+.main-heading-row-1{
+  margin:0;
+  padding-top: 20px;
+  padding-left: 60px;
+  font-family: $font2;
+  font-size: 20px;
+  color: $headingColor;
+  .structure-text{
+    padding: 0;
+  }
+}
+
+.main-heading-row-2{
+  margin: 0;
+  font-family: $font2;
+  font-size: 15px;
+  color: $mainHeadingColor;
+  .author-info{
+    img{
+      margin-left: 30px;
+    }
+    span{
+      margin-left: 25px;
+      font-weight: 700;
+    }
+  }
+}
+
+.main-heading-row-3{
+  box-shadow: 0 2px 4px 0 rgba(209, 209, 209, 0.5);
+  margin: 0;
+  padding-left: 60px;
+  padding-top: 20px;
+  font-family: $font2;
+  font-weight: 700;
+  font-size: 15px;
+  color: $mainHeadingColor;
+  .tab-text{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    .border{
+      margin: 0;
+      padding: 0;
+      width: 28px;
+      height: 3px;
+      background-color: $blueColor;
+    }
+  }
+}
