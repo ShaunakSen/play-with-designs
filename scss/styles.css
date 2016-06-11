@@ -40,6 +40,54 @@
       padding: 0;
       width: 28px;
       height: 3px;
-      background-color: #29abe2; }
+      background-color: #a9d2e1; }
+
+.main-wrapper {
+  background-color: #f2f2f2;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: "Lato", sans-serif; }
+  .main-wrapper .wrapper-inner {
+    height: 700px;
+    background-color: #a9d2e1;
+    margin: 0;
+    padding: 0; }
+    .main-wrapper .wrapper-inner .upload-row {
+      margin: 0;
+      padding: 22px 27px 22px 27px;
+      height: 90px;
+      background-color: #ffffff;
+      width: 100%;
+      box-shadow: 0 2px 4px 0 rgba(204, 204, 204, 0.5); }
+      .main-wrapper .wrapper-inner .upload-row .drag-and-drop {
+        height: 45px;
+        background-color: #f2f2f2; }
+        .main-wrapper .wrapper-inner .upload-row .drag-and-drop .drag-and-drop-main {
+          margin-top: 12px; }
+          .main-wrapper .wrapper-inner .upload-row .drag-and-drop .drag-and-drop-main i {
+            font-size: 20px;
+            color: #b5b4b4; }
+          .main-wrapper .wrapper-inner .upload-row .drag-and-drop .drag-and-drop-main .drag-and-drop-main-text {
+            color: #535353;
+            font-size: 14px;
+            font-weight: 700;
+            padding-left: 2px; }
+          .main-wrapper .wrapper-inner .upload-row .drag-and-drop .drag-and-drop-main .or-text {
+            color: #b5b4b4;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 0; }
+          .main-wrapper .wrapper-inner .upload-row .drag-and-drop .drag-and-drop-main .browse-text {
+            color: #259adb;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 0; }
+      .main-wrapper .wrapper-inner .upload-row .upload-button {
+        height: 45px;
+        background-color: #22b573;
+        padding-top: 12px;
+        color: #ffffff;
+        font-size: 15px; }
 
 /*# sourceMappingURL=styles.css.map */

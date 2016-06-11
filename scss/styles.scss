@@ -3,42 +3,45 @@
   src: url('../fonts/font.ttf');
 }
 
+$white: #ffffff;
+$background: #f2f2f2;
 $headingColor: #b673b7;
 $mainHeadingColor: #636e7b;
 $mainTextColor: #878787;
-$blueColor: #29abe2;
+$darkTextColor: #535353;
+$blueColor: #a9d2e1;
 $font1: MyFont;
-$font2: 'Lato',sans-serif;
+$font2: 'Lato', sans-serif;
 
-.main-heading-row-1{
-  margin:0;
+.main-heading-row-1 {
+  margin: 0;
   padding-top: 20px;
   padding-left: 60px;
   font-family: $font2;
   font-size: 20px;
   color: $headingColor;
-  .structure-text{
+  .structure-text {
     padding: 0;
   }
 }
 
-.main-heading-row-2{
+.main-heading-row-2 {
   margin: 0;
   font-family: $font2;
   font-size: 15px;
   color: $mainHeadingColor;
-  .author-info{
-    img{
+  .author-info {
+    img {
       margin-left: 30px;
     }
-    span{
+    span {
       margin-left: 25px;
       font-weight: 700;
     }
   }
 }
 
-.main-heading-row-3{
+.main-heading-row-3 {
   box-shadow: 0 2px 4px 0 rgba(209, 209, 209, 0.5);
   margin: 0;
   padding-left: 60px;
@@ -47,16 +50,77 @@ $font2: 'Lato',sans-serif;
   font-weight: 700;
   font-size: 15px;
   color: $mainHeadingColor;
-  .tab-text{
+  .tab-text {
     margin: 0;
     padding: 0;
     cursor: pointer;
-    .border{
+    .border {
       margin: 0;
       padding: 0;
       width: 28px;
       height: 3px;
       background-color: $blueColor;
+    }
+  }
+}
+
+.main-wrapper {
+  background-color: $background;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: $font2;
+  .wrapper-inner {
+    height: 700px;
+    background-color: $blueColor;
+    margin: 0;
+    padding: 0;
+    .upload-row {
+      margin: 0;
+      padding: 22px 27px 22px 27px;
+      height: 90px;
+      background-color: $white;
+      width: 100%;
+      box-shadow: 0 2px 4px 0 rgba(204, 204, 204, 0.5);
+      .drag-and-drop {
+        height: 45px;
+        background-color: $background;
+        .drag-and-drop-main {
+          margin-top: 12px;
+          i {
+            font-size: 20px;
+            color: #b5b4b4;
+          }
+          .drag-and-drop-main-text {
+            color: $darkTextColor;
+            font-size: 14px;
+            font-weight: 700;
+            padding-left: 2px;
+
+          }
+          .or-text {
+            color: #b5b4b4;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 0;
+          }
+          .browse-text{
+            color: #259adb;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 0;
+          }
+        }
+      }
+
+      .upload-button{
+        height: 45px;
+        background-color: #22b573;
+        padding-top: 12px;
+        color: $white;
+        font-size: 15px;
+      }
+
     }
   }
 }
