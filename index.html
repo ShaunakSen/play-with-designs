@@ -7,6 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="fonts/glyphicons-halflings-regular.ttf"/>
     <link rel="stylesheet" href="scss/styles.css"/>
 </head>
 <body>
@@ -16,26 +17,31 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Brand</a>
+            <a class="navbar-brand" href="#">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav ">
                 <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Link</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Link</a></li>
             </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
 </nav>
 
 <!--NAV BAR ENDS-->
@@ -52,7 +58,9 @@
     </div>
 </div>
 <div class="row main-heading-row-3">
-    <div class="col-xs-2 tab-text">Files <div class="border"></div></div>
+    <div class="col-xs-2 tab-text">Files
+        <div class="border"></div>
+    </div>
     <div class="col-xs-2 tab-text">Discussions</div>
     <div class="col-xs-2 tab-text">Faculty</div>
 </div>
@@ -77,14 +85,263 @@
                                 Browse
                             </div>
                         </div>
-                    <div class="col-md-2"></div>
+                        <div class="col-md-2"></div>
+                    </div>
                 </div>
+                <div class="col-md-4"></div>
             </div>
-            <div class="col-md-4"></div>
-        </div>
             <div class="col-md-2 upload-button text-center" style="margin-left: 80px">
                 Upload
             </div>
+        </div>
+        <div class="row feed-row-heading">
+            Feed
+        </div>
+        <div class="row feed-row-main">
+            <div class="row">
+                <div class="col-xs-11"></div>
+                <div class="col-xs-1 trash-icon">
+                    <i class="fa fa-trash-o"></i>
+                </div>
+            </div>
+            <div class="row feed-row-content">
+                <div class="col-xs-1" style="padding: 0">
+                    <img src="http://placehold.it/70x70" alt=""/>
+                </div>
+                <div class="col-xs-10 main-text">
+                    <p><span>Atomic Theory</span>.pdf</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="col-xs-1 date">
+                    Nov 16
+                </div>
+            </div>
+            <div class="row feed-row-footer">
+                <div class="col-xs-1" style="padding: 0">
+                </div>
+                <div class="col-xs-7 upload-text">
+                    <p>Uploaded By: <span>&nbsp;&nbsp;Manisha Agarwal</span></p>
+                </div>
+                <div class="col-xs-4">
+                    <div class="row">
+                        <div class="col-xs-4 button-1" style="margin-left: 80px">
+                            <div class="row">
+                                <div class="col-xs-6 button-1-left">
+                                    &nbsp;Upvote
+                                </div>
+                                <div class="col-xs-6 button-1-right ">
+                                    225
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 button-2">
+                            <div class="row">
+                                <div class="col-xs-8 button-2-left">
+                                    &nbsp;Downvote
+                                </div>
+                                <div class="col-xs-4 button-2-right">
+                                    3
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 button-3">
+                            <div class="row">
+                                <div class="col-xs-4 button-3-left">
+                                    <i class="fa fa-facebook-f"></i>
+                                </div>
+                                <div class="col-xs-8 button-3-right">
+                                    Share
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row feed-row-main">
+            <div class="row">
+                <div class="col-xs-11"></div>
+                <div class="col-xs-1 trash-icon">
+                    <i class="fa fa-trash-o"></i>
+                </div>
+            </div>
+            <div class="row feed-row-content">
+                <div class="col-xs-1" style="padding: 0">
+                    <img src="http://placehold.it/70x70" alt=""/>
+                </div>
+                <div class="col-xs-10 main-text">
+                    <p><span>Atomic Theory</span>.pdf</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="col-xs-1 date">
+                    Nov 16
+                </div>
+            </div>
+            <div class="row feed-row-footer">
+                <div class="col-xs-1" style="padding: 0">
+                </div>
+                <div class="col-xs-7 upload-text">
+                    <p>Uploaded By: <span>&nbsp;&nbsp;Manisha Agarwal</span></p>
+                </div>
+                <div class="col-xs-4">
+                    <div class="row">
+                        <div class="col-xs-4 button-1" style="margin-left: 80px">
+                            <div class="row">
+                                <div class="col-xs-6 button-1-left">
+                                    &nbsp;Upvote
+                                </div>
+                                <div class="col-xs-6 button-1-right ">
+                                    225
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 button-2">
+                            <div class="row">
+                                <div class="col-xs-8 button-2-left">
+                                    &nbsp;Downvote
+                                </div>
+                                <div class="col-xs-4 button-2-right">
+                                    3
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 button-3">
+                            <div class="row">
+                                <div class="col-xs-4 button-3-left">
+                                    <i class="fa fa-facebook-f"></i>
+                                </div>
+                                <div class="col-xs-8 button-3-right">
+                                    Share
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row feed-row-main">
+            <div class="row">
+                <div class="col-xs-11"></div>
+                <div class="col-xs-1 trash-icon">
+                    <i class="fa fa-trash-o"></i>
+                </div>
+            </div>
+            <div class="row feed-row-content">
+                <div class="col-xs-1" style="padding: 0">
+                    <img src="http://placehold.it/70x70" alt=""/>
+                </div>
+                <div class="col-xs-10 main-text">
+                    <p><span>Atomic Theory</span>.pdf</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="col-xs-1 date">
+                    Nov 16
+                </div>
+            </div>
+            <div class="row feed-row-footer">
+                <div class="col-xs-1" style="padding: 0">
+                </div>
+                <div class="col-xs-7 upload-text">
+                    <p>Uploaded By: <span>&nbsp;&nbsp;Manisha Agarwal</span></p>
+                </div>
+                <div class="col-xs-4">
+                    <div class="row">
+                        <div class="col-xs-4 button-1" style="margin-left: 80px">
+                            <div class="row">
+                                <div class="col-xs-6 button-1-left">
+                                    &nbsp;Upvote
+                                </div>
+                                <div class="col-xs-6 button-1-right ">
+                                    225
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 button-2">
+                            <div class="row">
+                                <div class="col-xs-8 button-2-left">
+                                    &nbsp;Downvote
+                                </div>
+                                <div class="col-xs-4 button-2-right">
+                                    3
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 button-3">
+                            <div class="row">
+                                <div class="col-xs-4 button-3-left">
+                                    <i class="fa fa-facebook-f"></i>
+                                </div>
+                                <div class="col-xs-8 button-3-right">
+                                    Share
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row feed-row-main">
+            <div class="row">
+                <div class="col-xs-11"></div>
+                <div class="col-xs-1 trash-icon">
+                    <i class="fa fa-trash-o"></i>
+                </div>
+            </div>
+            <div class="row feed-row-content">
+                <div class="col-xs-1" style="padding: 0">
+                    <img src="http://placehold.it/70x70" alt=""/>
+                </div>
+                <div class="col-xs-10 main-text">
+                    <p><span>Atomic Theory</span>.pdf</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="col-xs-1 date">
+                    Nov 16
+                </div>
+            </div>
+            <div class="row feed-row-footer">
+                <div class="col-xs-1" style="padding: 0">
+                </div>
+                <div class="col-xs-7 upload-text">
+                    <p>Uploaded By: <span>&nbsp;&nbsp;Manisha Agarwal</span></p>
+                </div>
+                <div class="col-xs-4">
+                    <div class="row">
+                        <div class="col-xs-4 button-1" style="margin-left: 80px">
+                            <div class="row">
+                                <div class="col-xs-6 button-1-left">
+                                    &nbsp;Upvote
+                                </div>
+                                <div class="col-xs-6 button-1-right ">
+                                    225
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 button-2">
+                            <div class="row">
+                                <div class="col-xs-8 button-2-left">
+                                    &nbsp;Downvote
+                                </div>
+                                <div class="col-xs-4 button-2-right">
+                                    3
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 button-3">
+                            <div class="row">
+                                <div class="col-xs-4 button-3-left">
+                                    <i class="fa fa-facebook-f"></i>
+                                </div>
+                                <div class="col-xs-8 button-3-right">
+                                    Share
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/><br/><br/><br/><br/><br/>
     </div>
 </div>
 
