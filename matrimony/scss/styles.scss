@@ -3,6 +3,7 @@ $textFaded: #e5e5e5;
 $font: 'Roboto', sans-serif;
 $small: 16px;
 $large: 33px;
+$medium: 21px;
 
 body{
   background: url(../img/Coming-Soon-page-Bk.jpg) no-repeat center center fixed;
@@ -19,6 +20,7 @@ body{
   padding: 50px;
 
   .left-section{
+    border-right: 1px solid #565656;
     .coming-soon-text{
       margin-top: 10px;
       font-size: $small;
@@ -41,6 +43,23 @@ body{
       .border{
         height: 5px;
         background-color: rgba(70, 70, 70, 0.61);
+      }
+    }
+
+    .email-website-row
+    {
+      margin-top: 10px;
+      h4{
+        font-size: $medium;
+        font-weight: 700;
+      }
+      p{
+        font-size: $small;
+        font-weight: 400;
+      }
+      i{
+        font-size: $large;
+        color: $textColor;
       }
     }
   }
