@@ -32,6 +32,36 @@ body {
   background-size: cover;
 }
 
+.contact-row {
+  font-size: $large;
+  font-weight: 700;
+  margin-top: 70px;
+  span {
+    margin-left: 5px;
+  }
+  .border {
+    height: 5px;
+    background-color: rgba(70, 70, 70, 0.61);
+  }
+}
+
+.email-website-row {
+  margin-top: 10px;
+  h4 {
+    font-size: $medium;
+    font-weight: 700;
+  }
+  p {
+    font-size: $small;
+    font-weight: 400;
+  }
+  i {
+    font-size: $large;
+    color: $textColor;
+  }
+}
+
+
 .main-wrapper-row {
   font-family: $font;
   color: $textColor;
@@ -45,6 +75,7 @@ body {
       font-size: $small;
       p {
         color: $textFaded;
+        font-size: 18px;
         span {
           font-weight: 700;
           color: $textColor;
@@ -52,34 +83,7 @@ body {
       }
     }
 
-    .contact-row {
-      font-size: $large;
-      font-weight: 700;
-      margin-top: 70px;
-      span {
-        margin-left: 5px;
-      }
-      .border {
-        height: 5px;
-        background-color: rgba(70, 70, 70, 0.61);
-      }
-    }
 
-    .email-website-row {
-      margin-top: 10px;
-      h4 {
-        font-size: $medium;
-        font-weight: 700;
-      }
-      p {
-        font-size: $small;
-        font-weight: 400;
-      }
-      i {
-        font-size: $large;
-        color: $textColor;
-      }
-    }
   }
 
   .right-section {
@@ -143,9 +147,11 @@ body {
           color: black;
           font-weight: 700;
           font-size: 16px;
-          padding-top: 10px;
           height: 40px;
           text-align: center;
+          outline: none;
+          border: none;
+          box-shadow: none;
         }
       }
     }
