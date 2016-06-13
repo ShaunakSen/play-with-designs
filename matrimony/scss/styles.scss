@@ -1,11 +1,30 @@
-$textColor : #ffffff;
+$textColor: #ffffff;
 $textFaded: #e5e5e5;
 $font: 'Roboto', sans-serif;
 $small: 16px;
 $large: 33px;
 $medium: 21px;
+$smaller:13px;
+a:link {
+  text-decoration: none;
+}
 
-body{
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a { color: inherit; }
+
+
+body {
   background: url(../img/Coming-Soon-page-Bk.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -13,55 +32,136 @@ body{
   background-size: cover;
 }
 
-.main-wrapper-row{
+.main-wrapper-row {
   font-family: $font;
   color: $textColor;
 
-  padding: 50px;
+  padding: 40px;
 
-  .left-section{
-    border-right: 1px solid #565656;
-    .coming-soon-text{
+  .left-section {
+    padding-top: 40px;
+    .coming-soon-text {
       margin-top: 10px;
       font-size: $small;
-      p{
+      p {
         color: $textFaded;
-        span{
+        span {
           font-weight: 700;
           color: $textColor;
         }
       }
     }
 
-    .contact-row{
+    .contact-row {
       font-size: $large;
       font-weight: 700;
-      margin-top: 10px;
-      span{
+      margin-top: 70px;
+      span {
         margin-left: 5px;
       }
-      .border{
+      .border {
         height: 5px;
         background-color: rgba(70, 70, 70, 0.61);
       }
     }
 
-    .email-website-row
-    {
+    .email-website-row {
       margin-top: 10px;
-      h4{
+      h4 {
         font-size: $medium;
         font-weight: 700;
       }
-      p{
+      p {
         font-size: $small;
         font-weight: 400;
       }
-      i{
+      i {
         font-size: $large;
         color: $textColor;
       }
     }
   }
 
+  .right-section {
+    border-left: 1px solid #565656;
+    .about-us-head {
+      margin-top: 10px;
+      .about-us-head-text {
+        font-size: $large;
+        font-weight: 700;
+        .border {
+          height: 5px;
+          background-color: rgba(70, 70, 70, 0.61);
+        }
+      }
+    }
+
+    .about-us-info{
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .about-us-main{
+      margin-top: 10px;
+      blockquote{
+        p{
+          font-size: $smaller;
+          font-weight: 400;
+        }
+      }
+      p{
+        font-size: $smaller;
+        font-weight: 400;
+      }
+    }
+
+    .input-row{
+      margin-top: 10px;
+      .input-wrapper{
+        padding: 0;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.78);
+        border-bottom: 1px solid $textColor;
+        .input-left{
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          font-size: 16px;
+          font-weight: 700;
+          padding-top: 10px;
+        }
+        .input-center{
+          height: 40px;
+          background-color: rgba(0, 0, 0, 0.78);
+          outline: none;
+          border: none;
+          box-shadow: none;
+          border-bottom: 1px solid $textColor;
+        }
+        .input-right{
+          background-color: $textColor;
+          color: black;
+          font-weight: 700;
+          font-size: 16px;
+          padding-top: 10px;
+          height: 40px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+}
+.footer-row{
+  margin-top: 10px;
+  .footer-text{
+    font-size: $small;
+    color: #747474;
+    font-weight: 400;
+    span{
+      color: #0089ec;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
 }
