@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2676678-2f2f-49b9-b837-d611bfdf1674" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-bootstrap-theme/img/startup-photos.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-bootstrap-theme/scss/_functions.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom-bootstrap-theme/index.html" afterPath="$PROJECT_DIR$/custom-bootstrap-theme/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom-bootstrap-theme/readme.txt" afterPath="$PROJECT_DIR$/custom-bootstrap-theme/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom-bootstrap-theme/scss/_custom.scss" afterPath="$PROJECT_DIR$/custom-bootstrap-theme/scss/_custom.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom-bootstrap-theme/scss/_customVariables.scss" afterPath="$PROJECT_DIR$/custom-bootstrap-theme/scss/_customVariables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom-bootstrap-theme/scss/app.css" afterPath="$PROJECT_DIR$/custom-bootstrap-theme/scss/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom-bootstrap-theme/scss/app.scss" afterPath="$PROJECT_DIR$/custom-bootstrap-theme/scss/app.scss" />
     </list>
     <ignored path="front end.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +34,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+            <state relative-caret-position="690">
+              <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -43,8 +44,8 @@
       <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="54">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -53,8 +54,8 @@
       <file leaf-file-name="_customVariables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/scss/_customVariables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            <state relative-caret-position="250">
+              <caret line="726" column="41" selection-start-line="726" selection-start-column="41" selection-end-line="726" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -63,8 +64,8 @@
       <file leaf-file-name="_custom.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/scss/_custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="810">
+              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -73,8 +74,18 @@
       <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="501">
+              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_functions.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/scss/_functions.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -107,11 +118,12 @@
         <option value="$PROJECT_DIR$/matrimony/index.html" />
         <option value="$PROJECT_DIR$/matrimony2/scss/styles.scss" />
         <option value="$PROJECT_DIR$/matrimony2/index.html" />
+        <option value="$PROJECT_DIR$/custom-bootstrap-theme/scss/_functions.scss" />
         <option value="$PROJECT_DIR$/custom-bootstrap-theme/scss/app.scss" />
-        <option value="$PROJECT_DIR$/custom-bootstrap-theme/index.html" />
-        <option value="$PROJECT_DIR$/custom-bootstrap-theme/scss/_customVariables.scss" />
         <option value="$PROJECT_DIR$/custom-bootstrap-theme/readme.txt" />
+        <option value="$PROJECT_DIR$/custom-bootstrap-theme/index.html" />
         <option value="$PROJECT_DIR$/custom-bootstrap-theme/scss/_custom.scss" />
+        <option value="$PROJECT_DIR$/custom-bootstrap-theme/scss/_customVariables.scss" />
       </list>
     </option>
   </component>
@@ -193,6 +205,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="custom-bootstrap-theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom-bootstrap-theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,7 +344,7 @@
       <workItem from="1465901424451" duration="45000" />
       <workItem from="1465918459755" duration="617000" />
       <workItem from="1465966548895" duration="57000" />
-      <workItem from="1479562500169" duration="7069000" />
+      <workItem from="1479562500169" duration="9905000" />
     </task>
     <task id="LOCAL-00001" summary="Designed Top part (:except nav bar)">
       <created>1465625548553</created>
@@ -400,11 +430,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479566283131</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="styled the showcase area">
+      <created>1479571711812</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1479571711812</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53913000" />
+    <option name="totallyTimeSpent" value="56749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="0" />
@@ -486,7 +523,8 @@
     <MESSAGE value="made responsive :)" />
     <MESSAGE value="setting up the project" />
     <MESSAGE value="working with bootstrap-sass and _variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="working with bootstrap-sass and _variables" />
+    <MESSAGE value="styled the showcase area" />
+    <option name="LAST_COMMIT_MESSAGE" value="styled the showcase area" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -850,42 +888,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/readme.txt">
+    <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/scss/_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/index.html">
+    <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+        <state relative-caret-position="501">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="54">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/scss/_customVariables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="250">
+          <caret line="726" column="41" selection-start-line="726" selection-start-column="41" selection-end-line="726" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/scss/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="810">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding />
         </state>
       </provider>

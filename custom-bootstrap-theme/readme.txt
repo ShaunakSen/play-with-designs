@@ -98,5 +98,41 @@ $brand-primary:         $main-color !default;
 
 
 
+We want to write a function that checks background color
+
+If it is dark apply white text
+else vice versa
+
+
+Create file _functions.scss
+
+
+@function setTextColor($color){
+  @if(lightness($color) > 50){
+    @return #000000;
+  }
+  @else {
+    @return #ffffff;
+  }
+}
+
+Import this in app.scss
+
+@import "functions";
+
+
+In _custom:
+
+
+.section-a {
+  padding: 30px 0;
+  text-align: center;
+  background-color: $main-color;
+  color: setTextColor($main-color);
+
+  .fa {
+    font-size: $icon-size;
+  }
+}
 
 

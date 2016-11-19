@@ -4907,12 +4907,12 @@ button.list-group-item-danger {
   border-color: #ddd; }
   .panel-default > .panel-heading {
     color: #333333;
-    background-color: #f5f5f5;
+    background-color: #1a8c97;
     border-color: #ddd; }
     .panel-default > .panel-heading + .panel-collapse > .panel-body {
       border-top-color: #ddd; }
     .panel-default > .panel-heading .badge {
-      color: #f5f5f5;
+      color: #1a8c97;
       background-color: #333333; }
   .panel-default > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #ddd; }
@@ -8131,7 +8131,10 @@ button.close {
   clip: auto; }
 
 .navbar {
+  border-radius: 0;
   margin-bottom: 0; }
+  .navbar a {
+    color: #ffffff !important; }
   .navbar .fa {
     font-size: 18px; }
 
@@ -8145,5 +8148,22 @@ button.close {
     background: #fff;
     opacity: 0.8;
     padding: 20px 30px 30px 30px; }
+
+.section-a {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #1a8c97;
+  color: #ffffff; }
+  .section-a .fa {
+    font-size: 60px; }
+
+.section-b {
+  padding: 30px 0;
+  background-color: #E6EBF1; }
+  .section-b img {
+    width: 100%; }
+
+.panel-heading h4 {
+  color: #ffffff; }
 
 /*# sourceMappingURL=app.css.map */

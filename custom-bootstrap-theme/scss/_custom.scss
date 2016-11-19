@@ -1,21 +1,48 @@
-.navbar{
+.navbar {
+  border-radius: 0;
   margin-bottom: 0;
-  .fa{
+  a {
+    color: setTextColor($main-color)!important;
+  }
+  .fa {
     font-size: 18px;
   }
 }
 
-.showcase{
+.showcase {
   background: url("../img/startup-photos.jpg") no-repeat 0 -170px;
   height: 500px;
   padding: 30px 0;
 
-  h1{
+  h1 {
     font-size: 60px;
   }
-  .container{
+  .container {
     background: #fff;
-    opacity:0.8;
+    opacity: 0.8;
     padding: 20px 30px 30px 30px;
   }
+}
+
+.section-a {
+  padding: 30px 0;
+  text-align: center;
+  background-color: $main-color;
+  color: setTextColor($main-color);
+
+  .fa {
+    font-size: $icon-size;
+  }
+}
+
+.section-b{
+  padding: 30px 0;
+  background-color: #E6EBF1;
+  img{
+    width: 100%;
+  }
+}
+
+.panel-heading h4{
+  color: setTextColor($main-color);
 }
