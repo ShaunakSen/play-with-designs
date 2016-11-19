@@ -64,4 +64,39 @@ In app.scss:
 @import "custom";
 
 
+In _custom:
+
+.navbar{
+  margin-bottom: 0;
+  .fa{
+    font-size: 18px;
+  }
+}
+
+.showcase{
+  background: url("../img/startup-photos.jpg") no-repeat 0 -100px;
+  height: 600px;
+  padding: 30px 0;
+
+  h1{
+    font-size: 60px;
+  }
+  .container{
+    background: #fff;
+    opacity:0.7;
+    padding: 20px 30px 30px 30px;
+  }
+}
+
+padding: top, right, bottom, left
+
+we want our button color to match our main color
+
+In _customVariables
+
+$brand-primary:         $main-color !default;
+
+
+
+
 
