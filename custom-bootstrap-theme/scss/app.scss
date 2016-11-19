@@ -1,3 +1,6 @@
+
+@import "customVariables";
+
 //Import main bootstrap file
 
 @import "../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap";
@@ -5,3 +8,11 @@
 //Import bootstrap-compass as well
 
 @import "../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap-compass";
+
+//Import font-awesome
+
+@import "../font-awesome-4.7.0/scss/font-awesome";
+
+//Import custom styles
+
+@import "custom";
