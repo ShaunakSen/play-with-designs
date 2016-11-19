@@ -43,6 +43,35 @@
   }
 }
 
+.section-c {
+  padding: 60px;
+  text-align: center;
+  background-color: $main-color;
+  color: setTextColor($main-color);
+
+  .btn-primary{
+    background-color: darken($main-color, 10%);
+  }
+}
+
 .panel-heading h4{
   color: setTextColor($main-color);
+}
+
+footer{
+  padding: 30px 0;
+  background-color: darken($main-color, 10%);
+  color: setTextColor($main-color);
+  text-align: center;
+}
+
+.title-bar{
+  background: url("../img/startup-photos.jpg") no-repeat 0 -200px;
+  height: 300px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid $main-color;
+}
+
+.main{
+  margin-top: 30px;
 }
