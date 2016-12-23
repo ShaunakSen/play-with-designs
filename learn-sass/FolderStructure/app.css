@@ -1,0 +1,13 @@
+body {
+  background: orchid;
+  color: whitesmoke; }
+
+#header {
+  border: solid 1px black;
+  padding: 40px; }
+
+.widget {
+  border-radius: 100%;
+  background: #1a237e; }
+
+/*# sourceMappingURL=app.css.map */

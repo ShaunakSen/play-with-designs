@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACL,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,OAAO",
+"sources": ["widget.sass"],
+"names": [],
+"file": "widget.css"
+}
