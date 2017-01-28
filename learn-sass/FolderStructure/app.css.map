@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAI;EACF,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,UAAU;;ACFnB,OAAO;EACL,MAAM,EAAE,eAAe;EACvB,OAAO,EAAE,IAAI;;ACFf,OAAO;EACL,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,OAAO",
-"sources": ["1-base/base.sass","2-layouts/header.sass","3-modules/widget.sass"],
+"mappings": "AAKA,IAAI;EACF,UAAU,ECDE,MAAM;EDElB,KAAK,EAAE,UAAU;EACjB,SAAS,ECDM,IAAI;;ADGrB,EAAE;EACA,WAAW,ECTM,qBAAqB;;ADWxC,MAAM;EACJ,WAAW,ECXW,4BAA4B;;ACHpD,OAAO;EACL,MAAM,EAAE,eAAe;EACvB,OAAO,EAAE,IAAI;;ACCf,IAAI;EACF,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,UAAU,EFLC,OAAO",
+"sources": ["1-base/_base.sass","_variables.sass","2-layouts/_header.sass","3-modules/_box.sass"],
 "names": [],
 "file": "app.css"
 }

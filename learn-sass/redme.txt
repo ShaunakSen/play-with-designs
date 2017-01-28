@@ -1,0 +1,7 @@
+A partial in sass starts with _
+partials are not directly compiled into css
+they are imported into a main sass file - app.sass
+this app.sass is compiled into app.css
+
+Mixins are just like functions
+They can take in params as well

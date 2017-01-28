@@ -1,13 +1,21 @@
 body {
   background: orchid;
-  color: whitesmoke; }
+  color: whitesmoke;
+  font-size: 18px; }
+
+h1 {
+  font-family: Georgia, Times, serif; }
+
+h2, h3 {
+  font-family: Helvetica, Arial, sans-serif; }
 
 #header {
   border: solid 1px black;
   padding: 40px; }
 
-.widget {
-  border-radius: 100%;
-  background: #1a237e; }
+.box {
+  height: 100px;
+  width: 100px;
+  background: #89ce72; }
 
 /*# sourceMappingURL=app.css.map */
