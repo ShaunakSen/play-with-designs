@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2676678-2f2f-49b9-b837-d611bfdf1674" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/_variables.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/folder_struc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/learn-mixins.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/0-plugins/_plugins-dir.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/1-base/_base-dir.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/1-base/_common.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/2-layouts/_container.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/2-layouts/_layouts-dir.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/3-modules/_box.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/3-modules/_modules-dir.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/_mixins.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/_variables.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/app.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/Mixins/learn-mixins.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-sass/redme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vertical-timeline/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vertical-timeline/style.css" />
+    <list default="true" id="a2676678-2f2f-49b9-b837-d611bfdf1674" name="Default" comment="styles done">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derek-sass/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derek-sass/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derek-sass/sass/ie.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derek-sass/sass/print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derek-sass/sass/screen.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derek-sass/stylesheets/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derek-sass/stylesheets/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derek-sass/stylesheets/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn-sass/FolderStructure/app.css" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn-sass/FolderStructure/app.css.map" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/app.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn-sass/FolderStructure/app.sass" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/app.sass" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learn-sass/FolderStructure/0-plugins/plugins-dir.sass" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/0-plugins/_plugins-dir.sass" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learn-sass/FolderStructure/1-base/base-dir.sass" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/1-base/_base-dir.sass" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learn-sass/FolderStructure/1-base/base.sass" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/1-base/_base.sass" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learn-sass/FolderStructure/2-layouts/header.sass" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/2-layouts/_header.sass" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learn-sass/FolderStructure/2-layouts/layouts-dir.sass" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/2-layouts/_layouts-dir.sass" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learn-sass/FolderStructure/3-modules/modules-dir.sass" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/3-modules/_modules-dir.sass" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learn-sass/FolderStructure/3-modules/widget.sass" afterPath="$PROJECT_DIR$/learn-sass/FolderStructure/3-modules/_box.sass" />
     </list>
     <ignored path="front end.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,21 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vertical-timeline/index.html">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/derek-sass/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="637">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vertical-timeline/style.css">
+      <file leaf-file-name="config.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/derek-sass/config.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+            <state relative-caret-position="18">
+              <caret line="1" column="46" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -140,6 +122,8 @@
         <option value="$PROJECT_DIR$/learn-sass/Mixins/3-modules/_box.sass" />
         <option value="$PROJECT_DIR$/vertical-timeline/index.html" />
         <option value="$PROJECT_DIR$/vertical-timeline/style.css" />
+        <option value="$PROJECT_DIR$/derek_sass/readme.txt" />
+        <option value="$PROJECT_DIR$/derek-sass/readme.txt" />
       </list>
     </option>
   </component>
@@ -163,7 +147,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -192,6 +176,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,13 +205,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vertical-timeline" />
+              <option name="myItemId" value="derek-sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="derek-sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -337,7 +339,11 @@
       <workItem from="1482505052817" duration="3911000" />
       <workItem from="1482857521289" duration="3272000" />
       <workItem from="1482927452941" duration="138000" />
-      <workItem from="1485632968057" duration="777000" />
+      <workItem from="1485632968057" duration="1371000" />
+      <workItem from="1485634688434" duration="1617000" />
+      <workItem from="1485669839645" duration="85000" />
+      <workItem from="1485670039287" duration="24000" />
+      <workItem from="1488608292460" duration="2750000" />
     </task>
     <task id="LOCAL-00001" summary="Designed Top part (:except nav bar)">
       <created>1465625548553</created>
@@ -451,17 +457,31 @@
       <option name="project" value="LOCAL" />
       <updated>1482487197684</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="basic timeline structure">
+      <created>1485633766445</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1485633766445</updated>
+    </task>
+    <task id="LOCAL-00018" summary="styles done">
+      <created>1485638022343</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1485638022343</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80574000" />
+    <option name="totallyTimeSpent" value="85644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25225225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -513,6 +533,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.rb" />
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -541,7 +567,9 @@
     <MESSAGE value="functions and more" />
     <MESSAGE value="finished styling" />
     <MESSAGE value="sass syntax + smacss folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="sass syntax + smacss folder structure" />
+    <MESSAGE value="basic timeline structure" />
+    <MESSAGE value="styles done" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -550,41 +578,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/font-awesome-4.7.0/HELP-US-OUT.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/scss/_functions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2466">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/scss/_customVariables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13068">
-          <caret line="726" column="41" selection-start-line="726" selection-start-column="41" selection-end-line="726" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/custom-bootstrap-theme/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -800,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,23 +807,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/G - Frameworks/Bourbon (FINAL)/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/G - Frameworks/Bourbon (FINAL)/css/app.css" />
     <entry file="file://$PROJECT_DIR$/learn-sass/Mixins/3-modules/_box.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,22 +829,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertical-timeline/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vertical-timeline/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="521">
+          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vertical-timeline/style.css">
+    <entry file="file://$PROJECT_DIR$/derek_sass/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        <state relative-caret-position="170">
+          <caret line="16" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derek-sass/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derek-sass/sass/ie.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derek-sass/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
